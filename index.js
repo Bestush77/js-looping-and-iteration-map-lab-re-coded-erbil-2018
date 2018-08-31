@@ -8,4 +8,6 @@ function lowerCaseDrivers(drivers){
 function attributesToPhrase(driver){
   return driver.map((el) =>{return el.name +" is from "+ el.hometown })
 }
-function nameToAttributes(arrays){}
+function nameToAttributes(arrays){
+  return array.map((el)=>{return });
+}
