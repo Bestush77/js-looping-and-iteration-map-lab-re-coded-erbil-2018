@@ -10,7 +10,7 @@ function attributesToPhrase(driver){
 }
 function nameToAttributes(arrays){
   return array.map((el)=>{return 
-    [firstName :el.split(' ')[0],
-  surName : el.split(' ')[1]]    
+    firstName :el.split(' ')[0],
+  surName : el.split(' ')[1]
   });
 }
