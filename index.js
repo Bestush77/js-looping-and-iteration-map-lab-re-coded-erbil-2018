@@ -12,6 +12,6 @@ function nameToAttributes(arrays){
   return array.map((el)=>{ 
     let firstName =el.split(' ')[0];
   let surName =el.split(' ')[1];
-  return {firstname: firstName, surname: surName}
+  return {firstName: firstName, surName: surName}
   });
 }
