@@ -10,8 +10,8 @@ function attributesToPhrase(driver){
 }
 function nameToAttributes(arrays){
   return array.map((el)=>{ 
-    let firstName =el.split(' ')[0];
+    let firstname =el.split(' ')[0];
   let surName =el.split(' ')[1];
-  return {firstName: firstName, lastName: surName}
+  return {firstName: firstname, lastName: surName}
   });
 }
