@@ -1,4 +1,6 @@
 // Code your solution in this file
 let drivers = [];
 
-function lowerCasedDrivers
+function lowerCaseDrivers(drivers){
+  drivers.map((el)=>{el.toLowerCase();});
+}
