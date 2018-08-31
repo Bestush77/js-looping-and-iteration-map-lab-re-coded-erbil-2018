@@ -4,3 +4,6 @@ let drivers = [];
 function lowerCaseDrivers(drivers){
   return drivers.map((el)=>{return el.toLowerCase();});
 }
+
+
+function nameToAttributes(){}
