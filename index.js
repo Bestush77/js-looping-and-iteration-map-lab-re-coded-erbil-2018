@@ -2,5 +2,5 @@
 let drivers = [];
 
 function lowerCaseDrivers(drivers){
-  drivers.map((el)=>{el.toLowerCase();});
+  return drivers.map((el)=>{return el.toLowerCase();});
 }
