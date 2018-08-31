@@ -11,6 +11,6 @@ function attributesToPhrase(driver){
 function nameToAttributes(arrays){
   return array.map((el)=>{return 
     array.firstname = el.split(' ')[0];
-array.firstname = el.split(' ')[0];    
+    array.firstname = el.split(' ')[1];    
   });
 }
