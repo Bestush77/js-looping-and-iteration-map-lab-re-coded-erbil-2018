@@ -9,8 +9,9 @@ function attributesToPhrase(driver){
   return driver.map((el) =>{return el.name +" is from "+ el.hometown })
 }
 function nameToAttributes(arrays){
-  return array.map((el)=>{return 
-    firstName :el.split(' ')[0],
-  surName : el.split(' ')[1]
+  return array.map((el)=>{ 
+    let firstName =el.split(' ')[0];
+  let surName =el.split(' ')[1];
+  return {firstname: firstname, surname: surname}
   });
 }
